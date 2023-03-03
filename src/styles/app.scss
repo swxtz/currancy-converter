@@ -1,0 +1,10 @@
+.app-wrapper {
+  margin-block: 6.25rem;
+  margin-inline: auto;
+  padding: 64px 80px;
+
+  width: min(800px, 60%);
+  background-color: var(--surface-primary);
+  box-shadow: 0px 4px 32px rgba(15, 23, 42, 0.15);
+  border-radius: 1rem;
+}

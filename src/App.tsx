@@ -1,7 +1,15 @@
+import { Header } from "./components/Header/Header";
+
+import "./styles/app.scss"
+
 export function App() {
+
+  
   return (
-    <>
-      <h1>Olha Mundo</h1>
-    </>
+    <div className="app-wrapper">
+      <Header />
+
+
+    </div>
   );
 }
