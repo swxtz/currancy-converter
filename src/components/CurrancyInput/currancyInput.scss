@@ -1,0 +1,40 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: .25rem;
+  border: 1px solid var(--graphic-elements);
+  align-items: center;
+
+  width: min(18.75rem, 40%);
+  height: 3.5rem;
+  border-radius: .5rem;
+  padding: 1rem 0 1rem 1rem;
+
+  
+
+  span {
+    font-size: 1rem;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    width: 50%;
+    font-size: 1rem;
+    color: var(--text-primary);
+    height: 100%;
+  }
+  input:focus-whitin {
+    border: 1px solid var(--highlight);
+  }
+
+  .input-right-border {
+    border-right: 1px solid var(--graphic-elements);
+    height: 1.5rem;
+  }
+
+}
+
+.input-wrapper:focus-within {
+  border: 1px solid var(--highlight);
+}
